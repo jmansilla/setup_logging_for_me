@@ -10,20 +10,16 @@ I never remember how to do python logging basic config. Do you?
 Features
 --------
 
-```python
-    import setup_logging_for_me
+Need to view your logs on the console? Just do:
 
-    ...
-
-    if __name__ == '__main__':
-        setup_logging_for_me.basicConfig()
-```
+import setup_logging_for_me
+setup_logging_for_me.basicConfig()
 
 Which does nothing more than calling to
 
-.. code-block:: python
-    logging.basicConfig(level=logging.INFO,
-                        format="%(name)s %(levelname)s %(asctime)s - %(message)s)
+logging.basicConfig(level=logging.INFO,
+                    format="%(name)s %(levelname)s %(asctime)s - %(message)s)
+
 
 
 Credits
