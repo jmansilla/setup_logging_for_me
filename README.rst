@@ -2,33 +2,22 @@
 setup logging for me
 ===============================
 
-.. image:: https://img.shields.io/pypi/v/setup_logging_for_me.svg
-        :target: https://pypi.python.org/pypi/setup_logging_for_me
-
-.. image:: https://img.shields.io/travis/jmansilla/setup_logging_for_me.svg
-        :target: https://travis-ci.org/jmansilla/setup_logging_for_me
-
-.. image:: https://readthedocs.org/projects/setup_logging_for_me/badge/?version=latest
-        :target: https://readthedocs.org/projects/setup_logging_for_me/?badge=latest
-        :alt: Documentation Status
-
-
 I never remember how to do python logging basic config. Do you?
 
 
 * Free software: ISC license
-* Documentation: https://setup_logging_for_me.readthedocs.org.
 
 Features
 --------
 
-.. code-block:: python
+```python
     import setup_logging_for_me
 
     ...
 
     if __name__ == '__main__':
         setup_logging_for_me.basicConfig()
+```
 
 Which does nothing more than calling to
 
