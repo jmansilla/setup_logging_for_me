@@ -30,6 +30,12 @@ Features
     if __name__ == '__main__':
         setup_logging_for_me.basicConfig()
 
+Which does nothing more than calling to
+
+.. code-block:: python
+    logging.basicConfig(level=logging.INFO,
+                        format="%(name)s %(levelname)s %(asctime)s - %(message)s)
+
 
 Credits
 ---------
