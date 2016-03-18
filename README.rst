@@ -15,10 +15,9 @@ Need to view your logs on the console? Just do:
 import setup_logging_for_me
 setup_logging_for_me.basicConfig()
 
-Which does nothing more than calling to
+Which does nothing more than calling to:
 
-logging.basicConfig(level=logging.INFO,
-                    format="%(name)s %(levelname)s %(asctime)s - %(message)s)
+logging.basicConfig(level=logging.INFO, format="%(name)s %(levelname)s %(asctime)s - %(message)s)
 
 
 
